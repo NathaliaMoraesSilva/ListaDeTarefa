@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarefa-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarefa-conteudo {
+    flex-grow: 1;
+}
+
+.tarefa-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tarefa-descricao {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.remover-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remover-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.tarefa {
+    border: 1px solid #ddd;  /* borda fina para separar as tarefas */
+    padding: 10px;
+    margin-bottom: 10px;      /* Espaço entre as tarefas */
+    background-color: #f9f9f9;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;  /* espaço entre o título e a descrição */
+}
+
+.titulo span {
+    color: #333;  /* Cor para o "Titulo:" */
+}
+
+.descricao {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.remover {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.remover:hover {
+    background-color: #d32f2f;  /* cor mais escura quando o botão for hover */
+}
+
+.lista-tarefas {
+    display: flex;
+    flex-wrap: wrap;      /* Permite que as tarefas se quebrem para a próxima linha se o espaço não for suficiente */
+    gap: 20px;            /* Espaço entre os itens */
+}
+
+.tarefa {
+    flex: 1 1 200px;      /* As tarefas ocupam um espaço mínimo de 200px e podem crescer */
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Para garantir que o padding seja incluído nas dimensões do elemento */
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.titulo span {
+    color: #333;
+}
+
+.descricao {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.remover {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.remover:hover {
+    background-color: #d32f2f;
+}
